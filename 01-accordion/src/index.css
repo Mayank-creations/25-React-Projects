@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #4a3131;
+    font-family: sans-serif;
+
+}
+
+#heading {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 90%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accordion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#heading h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(47, 47, 39);
+}
+
+.title {
+    margin-top: 10px;
+    color: hsl(0, 79%, 57%);
+
+}
+
+button {
+    margin-top: 5px;
+    color: rgb(53, 53, 53);
+    line-height: 1.6;
+}
